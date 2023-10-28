@@ -32,10 +32,10 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.outlook ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
+          href={`mailto:${socialMediaLinks.outlook}`}
+          className="icon-button outlook"
           target="_blank"
           rel="noopener noreferrer"
         >
