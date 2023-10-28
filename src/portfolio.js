@@ -124,7 +124,8 @@ const educationInfo = {
     {
       schoolName: "Cal Poly",
       logo: require("./assets/images/calPolyLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science, Minor in Computing for Interactive Arts",
+      subHeader:
+        "Bachelor of Science in Computer Science, Minor in Computing for Interactive Arts",
       duration: "September 2015 - June 2020",
       desc: "Participated in the Computing for Interactive Arts Program where I developed computer science and design skills",
       descBullets: [
@@ -187,7 +188,7 @@ const workExperiences = {
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2018 – December 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
