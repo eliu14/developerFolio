@@ -23,7 +23,7 @@ const greeting = {
   username: "Ellen Liu",
   title: "Hi all, I'm Ellen",
   subTitle: emoji(
-    "A passionate Software Developer with a passion for combining art and computer science with experience in building Web and Mobile applications and game development."
+    "A passionate Software Developer with experience in building Web applications with JavaScript / ReactJS / SaSS and developing 3D & VR experiences with Unity."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1RhqQJ4RPEiOux0mz1ZNxwkzP9CBq4KKK/view", // Set to empty to hide the button
@@ -45,14 +45,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Software Developer with a passion in creating applications with intuitive design",
   skills: [
+    emoji("⚡ Develop 3D / virtual reality applications with Unity"),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -60,6 +57,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -85,32 +86,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -174,20 +155,26 @@ const workExperiences = {
     {
       role: "Virtual Reality Developer",
       company: "Wvrld Studios Inc.",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/venuLogo.jpg"),
+      date: "August 2021 – July 2022",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented engaging social features in Unity and Blender, achieving a substantial 60% rise in user interaction across PC and VR platforms",
+        "Developed a C# console application leveraging APIs to streamline the incorporation of customer-provided assets into the database, leading to an impressive 80% enhancement in asset integration efficiency",
+        "Conducted quality testing and identified and resolved bugs to ensure a seamless user experience"
       ]
     },
     {
       role: "Software Tester 1",
       company: "Tapestry Solutions",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/tapSolLogo.jpg"),
       date: "May 2018 – December 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Developed and maintained Javascript-based automated testing scripts, leading to a notable 20% increase in website testing efficiency",
+        "Executed test frameworks in Jenkins, improving the efficiency of the quality assurance team",
+        "Assisted the development team in understanding, replicating, and debugging issues, reducing development time"
+      ]
     }
     // {
     //   role: "Software Engineer Intern",
@@ -211,31 +198,32 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Startups and companies I helped to develop their technologies",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/venuLogo.jpg"),
       projectName: "Venu",
-      projectDesc: "3D virtual conferencing platform",
+      projectDesc: "3D virtual conferencing platform that provides \"everything you need to deliver experiential marketing with metaverse AI powered virtual and hybrid event experiences.\" ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.venu3d.com/"
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Insert",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
+    // ,
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Insert",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://nextu.se/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
