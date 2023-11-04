@@ -175,7 +175,7 @@ const techStack = { .... }
 
 const workExperience = { .... }
 
-const openSource = { .... }
+const projects = { .... }
 
 const bigProjects = { .... }
 
